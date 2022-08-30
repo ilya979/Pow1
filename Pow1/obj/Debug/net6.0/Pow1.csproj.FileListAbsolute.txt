@@ -1,0 +1,15 @@
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\Pow1.csproj.AssemblyReference.cache
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\Pow1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\Pow1.AssemblyInfoInputs.cache
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\Pow1.AssemblyInfo.cs
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\Pow1.csproj.CoreCompileInputs.cache
+C:\Users\ibaikov\source\repos\Pow1\Pow1\bin\Debug\net6.0\Pow1.exe
+C:\Users\ibaikov\source\repos\Pow1\Pow1\bin\Debug\net6.0\Pow1.deps.json
+C:\Users\ibaikov\source\repos\Pow1\Pow1\bin\Debug\net6.0\Pow1.runtimeconfig.json
+C:\Users\ibaikov\source\repos\Pow1\Pow1\bin\Debug\net6.0\Pow1.dll
+C:\Users\ibaikov\source\repos\Pow1\Pow1\bin\Debug\net6.0\Pow1.pdb
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\Pow1.dll
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\refint\Pow1.dll
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\Pow1.pdb
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\Pow1.genruntimeconfig.cache
+C:\Users\ibaikov\source\repos\Pow1\Pow1\obj\Debug\net6.0\ref\Pow1.dll
