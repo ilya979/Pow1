@@ -2,7 +2,7 @@
 
 double a, res;
 long p;
-Stopwatch stopWatch;
+Stopwatch stopWatch = new Stopwatch();
 
 
 Console.WriteLine("a^p");
@@ -12,30 +12,28 @@ Console.Write("p = ");
 p = Convert.ToInt64(Console.ReadLine());
 
 
-stopWatch = new Stopwatch();
-stopWatch.Start();
+Console.Write("Pow2: ");
+stopWatch.Restart();
 res = Pow2(a, p);
 stopWatch.Stop();
-Console.Write("Pow2: ");
-printRes(a, p, res, stopWatch.ElapsedMilliseconds);
+Console.WriteLine($"{a}^{p}={res} ({stopWatch.ElapsedMilliseconds} ms)");
 
 
-stopWatch = new Stopwatch();
-stopWatch.Start();
+Console.Write("PowI: ");
+stopWatch.Restart();
 res = PowI(a, p);
 stopWatch.Stop();
-Console.Write("PowI: ");
-printRes(a, p, res, stopWatch.ElapsedMilliseconds);
+Console.WriteLine($"{a}^{p}={res} ({stopWatch.ElapsedMilliseconds} ms)");
+
+Console.ReadKey();
 
 
 
 double PowI(double a, long p)
 {
     double res = 1;
-    for(long i = 0; i < p; i++)
-    {
-        res *= a;
-    }
+    for(long i = 0; i < p; i++) res *= a;
+
     return res;
 }
 
@@ -56,9 +54,3 @@ double Pow2(double a, long p)
     return res;
 }
 
-void printRes(double a, long p, double res, long t)
-{
-    Console.WriteLine(a + "^" + p + "=" + res + " (" + t + " ms)");
-
-    return;
-}
