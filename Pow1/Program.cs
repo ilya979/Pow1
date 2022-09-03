@@ -42,28 +42,16 @@ double PowI(double a, long p)
 double Pow2(double a, long p)
 {
     long N = p;
-    long pp=0, i = 1;
     double d = a;
     double res = 1;
     while (N > 1)
     {
         N /= 2;
         d *= d;
-        //i *= 2;
 
-        //       Console.WriteLine("i = "+(++i)+"; d= "+d+"; res= "+res);
-
-        if (N % 2 == 1)
-        {
-            res *= d;
-           // pp += i;
-//            Console.Write("N = ");
-//            Console.WriteLine(N);
-
-        }
+        if (N % 2 == 1) res *= d;
     }
     if (p % 2 == 1) res *= a;
-    //Console.WriteLine("pp = " + pp);
 
     return res;
 }
